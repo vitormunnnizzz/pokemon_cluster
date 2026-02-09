@@ -47,7 +47,7 @@ Os dados são obtidos via **PokeAPI**, incluindo informações como:
 ### 1️Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/vitormunnnizzz/pokemon_cluster.git
 cd seu-repositorio
 ```
 
@@ -74,7 +74,7 @@ uvicorn main:app --reload
 A API ficará disponível em:
 
 ```
-http://127.0.0.1:8000
+http://127.0.0.1:8000/dataset-pokemon
 ```
 
 ## Análise e Clusterização
