@@ -2,16 +2,16 @@
 
 Este projeto realiza a **coleta, análise e clusterização de dados de Pokémon**, utilizando dados públicos da **[PokeAPI](https://pokeapi.co/)**. O objetivo é explorar características dos Pokémon e aplicar técnicas de **análise exploratória e aprendizado não supervisionado** para identificar padrões entre eles.
 
-## 📌 Funcionalidades
+## Funcionalidades
 
-* 📡 Coleta automática de dados da **PokeAPI**
-* 🚀 API desenvolvida com **FastAPI**
-* 📊 Análise exploratória de dados (EDA)
-* 🤖 Clusterização de Pokémon com **Machine Learning**
-* 📈 Visualização e interpretação dos clusters
+* Coleta automática de dados da **PokeAPI**
+* API desenvolvida com **FastAPI**
+* Análise exploratória de dados (EDA)
+* Clusterização de Pokémon com **Machine Learning**
+* Visualização e interpretação dos clusters
 
 
-## 🗂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 ├── main.py                  # API FastAPI para coleta dos dados
@@ -20,7 +20,7 @@ Este projeto realiza a **coleta, análise e clusterização de dados de Pokémon
 └── requirements.txt         # Dependências do projeto
 ```
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Python**
 * **FastAPI**
@@ -31,7 +31,7 @@ Este projeto realiza a **coleta, análise e clusterização de dados de Pokémon
 * **Matplotlib / Seaborn**
 * **Jupyter Notebook**
 
-## 📥 Coleta de Dados
+## Coleta de Dados
 
 Os dados são obtidos via **PokeAPI**, incluindo informações como:
 
@@ -42,24 +42,16 @@ Os dados são obtidos via **PokeAPI**, incluindo informações como:
 * Quantidade de habilidades
 * Quantidade de movimentos
 
-A API disponibiliza esses dados no endpoint:
+## Como Executar o Projeto
 
-```http
-GET /dataset-pokemon
-```
-
----
-
-## ▶️ Como Executar o Projeto
-
-### 1️⃣ Clonar o repositório
+### 1️Clonar o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-### 2️⃣ Criar ambiente virtual (opcional)
+### 2️Criar ambiente virtual (opcional)
 
 ```bash
 python -m venv venv
@@ -67,13 +59,13 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-### 3️⃣ Instalar dependências
+### 3️Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Executar a API
+### 4️Executar a API
 
 ```bash
 uvicorn main:app --reload
@@ -85,13 +77,7 @@ A API ficará disponível em:
 http://127.0.0.1:8000
 ```
 
-Documentação automática:
-
-```
-http://127.0.0.1:8000/docs
-```
-
-## 📊 Análise e Clusterização
+## Análise e Clusterização
 
 No notebook `cluster_pokemon.ipynb` são realizadas:
 
