@@ -1,9 +1,6 @@
-# 🐱‍👤 Pokémon Data Analysis & Clustering
+# Descrição
 
-Este projeto realiza a **coleta, análise e clusterização de dados de Pokémon**, utilizando dados públicos da **PokeAPI**.
-O objetivo é explorar características dos Pokémon e aplicar técnicas de **análise exploratória e aprendizado não supervisionado** para identificar padrões entre eles.
-
----
+Este projeto realiza a **coleta, análise e clusterização de dados de Pokémon**, utilizando dados públicos da **[PokeAPI](https://pokeapi.co/)**. O objetivo é explorar características dos Pokémon e aplicar técnicas de **análise exploratória e aprendizado não supervisionado** para identificar padrões entre eles.
 
 ## 📌 Funcionalidades
 
@@ -13,7 +10,6 @@ O objetivo é explorar características dos Pokémon e aplicar técnicas de **an
 * 🤖 Clusterização de Pokémon com **Machine Learning**
 * 📈 Visualização e interpretação dos clusters
 
----
 
 ## 🗂 Estrutura do Projeto
 
@@ -23,8 +19,6 @@ O objetivo é explorar características dos Pokémon e aplicar técnicas de **an
 ├── README.md                # Documentação do projeto
 └── requirements.txt         # Dependências do projeto
 ```
-
----
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -36,8 +30,6 @@ O objetivo é explorar características dos Pokémon e aplicar técnicas de **an
 * **Scikit-learn**
 * **Matplotlib / Seaborn**
 * **Jupyter Notebook**
-
----
 
 ## 📥 Coleta de Dados
 
@@ -99,8 +91,6 @@ Documentação automática:
 http://127.0.0.1:8000/docs
 ```
 
----
-
 ## 📊 Análise e Clusterização
 
 No notebook `cluster_pokemon.ipynb` são realizadas:
@@ -110,24 +100,6 @@ No notebook `cluster_pokemon.ipynb` são realizadas:
 * Padronização das variáveis
 * Aplicação de algoritmos de clusterização (ex: K-Means)
 * Visualização e interpretação dos grupos formados
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este projeto tem fins **educacionais e exploratórios**, sendo ideal para:
-
-* Portfólio de **Data Science / Machine Learning**
-* Estudos de **aprendizado não supervisionado**
-* Demonstração de integração entre **API + análise de dados**
-
----
-
-## 📄 Fonte dos Dados
-
-* [PokeAPI](https://pokeapi.co/)
-
----
 
 ## 👤 Autor
 
