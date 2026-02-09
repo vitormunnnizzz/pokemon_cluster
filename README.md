@@ -87,8 +87,11 @@ No notebook `cluster_pokemon.ipynb` são realizadas:
 * Aplicação de algoritmos de clusterização (ex: K-Means)
 * Visualização e interpretação dos grupos formados
 
-## 👤 Autor
+## Autor
 
-**Vitor Hugo Muniz**
-Engenharia da Computação | Ciência de Dados
-📍 UFC – Universidade Federal do Ceará
+**Vitor Hugo Muniz de Sousa Santos**
+
+Engenheiro da Computação | Especialista em Ciência de Dados
+
+*  [vitormunnnizzz@gmail.com](mailto:vitormunnnizzz@gmail.com)
+*  [www.linkedin.com/in/vitormunnnizzz](https://www.linkedin.com/in/vitormunnnizzz)
