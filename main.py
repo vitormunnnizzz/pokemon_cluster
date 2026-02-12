@@ -6,12 +6,10 @@ app = FastAPI()
 @app.get("/dataset-pokemon")
 def get_pokemon_data():
     dataset = []
-    # Vamos pegar os primeiros 80 para ter um dataset curto e rápido
     for i in range(1, 1000):
         url = f"https://pokeapi.co/api/v2/pokemon/{i}"
         res = requests.get(url).json()
         
-        # Extraindo colunas variadas
         info = {
             "nome": res["name"],
             "altura": res["height"],
